@@ -4,6 +4,7 @@ Official Python SDK for the [KaiCalls](https://www.kaicalls.com) API — give yo
 
 - Python 3.9+, one dependency (`requests`)
 - Docs: <https://www.kaicalls.com/docs/api> · Live OpenAPI: `GET /api/v1/openapi.json`
+- Source: <https://github.com/KaiCalls/kaicalls-python>
 
 ## Install
 

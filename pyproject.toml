@@ -28,7 +28,7 @@ dependencies = ["requests>=2.25"]
 [project.urls]
 Homepage = "https://www.kaicalls.com"
 Documentation = "https://www.kaicalls.com/docs/api"
-Repository = "https://github.com/cgallic/kai_calls"
+Repository = "https://github.com/KaiCalls/kaicalls-python"
 
 [tool.hatch.build.targets.wheel]
 packages = ["kaicalls"]
