@@ -14,7 +14,7 @@ Official Python SDK for the [KaiCalls](https://www.kaicalls.com) API — give yo
 
 **Can an AI agent use it?** Yes. Agents can use this SDK inside Python runtimes when they have a scoped KaiCalls API key and explicit approval for write actions such as outbound calls or SMS.
 
-**Is this the right package for WordPress?** No. WordPress sites should use the [KaiCalls WordPress plugin](https://github.com/KaiCalls/kaicalls-wordpress). This SDK is for Python application code.
+**Is this the right package for WordPress?** No. WordPress sites should install the approved [KaiCalls AI Intake plugin](https://wordpress.org/plugins/kaicalls-ai-intake/) from WordPress.org. This SDK is for Python application code.
 
 **Is this the right package for n8n?** No. n8n workflows should use [n8n-nodes-kaicalls](https://github.com/KaiCalls/n8n-nodes-kaicalls).
 
@@ -122,4 +122,4 @@ Do not expose `kc_live_` keys in notebooks, browser-delivered code, public logs,
 
 ### Which repo should I use for other surfaces?
 
-Use [kaicalls-js](https://github.com/KaiCalls/kaicalls-js) for JavaScript/TypeScript, [kaicalls-mcp](https://github.com/KaiCalls/kaicalls-mcp) for MCP clients, [kaicalls-plugin](https://github.com/KaiCalls/kaicalls-plugin) for Claude/Codex agent plugin installs, [kaicalls-wordpress](https://github.com/KaiCalls/kaicalls-wordpress) for WordPress, and [n8n-nodes-kaicalls](https://github.com/KaiCalls/n8n-nodes-kaicalls) for n8n.
+Use [kaicalls-js](https://github.com/KaiCalls/kaicalls-js) for JavaScript/TypeScript, [kaicalls-mcp](https://github.com/KaiCalls/kaicalls-mcp) for MCP clients, [kaicalls-plugin](https://github.com/KaiCalls/kaicalls-plugin) for Claude/Codex agent plugin installs, [KaiCalls AI Intake](https://wordpress.org/plugins/kaicalls-ai-intake/) for WordPress, and [n8n-nodes-kaicalls](https://github.com/KaiCalls/n8n-nodes-kaicalls) for n8n. WordPress source lives at [KaiCalls/kaicalls-wordpress](https://github.com/KaiCalls/kaicalls-wordpress).
